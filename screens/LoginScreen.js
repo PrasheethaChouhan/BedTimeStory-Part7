@@ -42,7 +42,7 @@ export default class LoginScreen extends React.Component {
         <View style={styles.subContainer1}>
           <Text style={styles.title}>Bedtime Stories</Text>
           <TextInput
-              placeholder="programmer@whitehatjr.com"
+              placeholder="author@bedtimestory.com"
               placeholderTextColor = "#ffff"
               onChangeText= {(emailText)=>{
                   this.setState({
